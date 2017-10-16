@@ -2,8 +2,8 @@ package ep.radu.don.notifications.Database;
 
 import android.provider.BaseColumns;
 
-/**
- * Created by ep on 31/08/2017.
+/*
+ *  Created by ep on 31/08/2017.
  */
 
 public final class dbFunctionsContract {

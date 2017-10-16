@@ -28,14 +28,14 @@ public class dbFunctions {
     private void createDB(Context context){
         dbFunctionsHelper = new dbFunctionsHelper(context);
     }
-    public void insertDB(String content, int id, String details) {
+    public void insertDB(String content, int imageId, String details) {
         // Gets the data repository in write mode
         SQLiteDatabase db = dbFunctionsHelper.getWritableDatabase();
 
         // Create a new map of values, where column names are the keys
         ContentValues values = new ContentValues();
         values.put(dbFunctionsContract.DefineDatabase.CONTENT, content);
-        values.put(dbFunctionsContract.DefineDatabase.IMAGE_ID, id);
+        values.put(dbFunctionsContract.DefineDatabase.IMAGE_ID, imageId);
         values.put(dbFunctionsContract.DefineDatabase.DETAILS, details);
 
         // Insert the new row, returning the primary key value of the new row
