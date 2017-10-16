@@ -5,12 +5,12 @@ import java.io.StringWriter;
 import java.net.UnknownHostException;
 import java.util.Arrays;
 
-import static com.orhanobut.logger.Logger.ASSERT;
-import static com.orhanobut.logger.Logger.DEBUG;
-import static com.orhanobut.logger.Logger.ERROR;
-import static com.orhanobut.logger.Logger.INFO;
-import static com.orhanobut.logger.Logger.VERBOSE;
-import static com.orhanobut.logger.Logger.WARN;
+import static ep.radu.don.notifications.Functions.Logger.ASSERT;
+import static ep.radu.don.notifications.Functions.Logger.DEBUG;
+import static ep.radu.don.notifications.Functions.Logger.ERROR;
+import static ep.radu.don.notifications.Functions.Logger.INFO;
+import static ep.radu.don.notifications.Functions.Logger.VERBOSE;
+import static ep.radu.don.notifications.Functions.Logger.WARN;
 
 /**
  * Provides convenient methods to some common operations
